@@ -2,6 +2,8 @@
 
 set -ouex pipefail
 
+rm -f /root/.bash_logout /root/.bash_profile /root/.bashrc || true
+
 ### Install packages
 
 # Packages can be installed from any enabled yum repo on the image.
