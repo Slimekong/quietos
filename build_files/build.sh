@@ -21,10 +21,3 @@ set -ouex pipefail
 # dnf5 -y copr disable ublue-os/staging
 dnf5 clean all
 #### Example for enabling a System Unit File
-
-ln -s /usr/lib/systemd/system/sddm.service \
-/etc/systemd/system/display-manager.service
-
-systemctl enable NetworkManager.service
-
-ln -sf /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
