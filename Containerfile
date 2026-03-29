@@ -24,6 +24,7 @@ RUN dnf install -y \
     konsole \
     dolphin \
     kde-settings-sddm \
+    kde-partitionmanager \
     && dnf clean all
 
 # Display Manager aktivieren
