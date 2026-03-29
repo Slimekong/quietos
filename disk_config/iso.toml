@@ -1,3 +1,7 @@
+[[customizations.filesystem]]
+mountpoint = "/"
+minsize = "20 GiB"
+
 [customizations.installer.kickstart]
 contents = """
 %post
