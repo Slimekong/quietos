@@ -3,7 +3,7 @@
 set -ouex pipefail
 
 ### Install packages
-
+flatpak install -y flathub io.github.kolunmi.Bazaar
 # Packages can be installed from any enabled yum repo on the image.
 # RPMfusion repos are available by default in ublue main images
 # List of rpmfusion packages can be found here:
